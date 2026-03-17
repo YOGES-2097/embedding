@@ -14,4 +14,4 @@ result = client.models.embed_content(
 embedding = result.embeddings[0].values
 
 print(f"Success! Dimension size: {len(embedding)}") 
-print(f"First 5 values: {embedding[:5]}")
+print(f"First 10 values: {embedding[:10]}")
